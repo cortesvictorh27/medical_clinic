@@ -1,0 +1,61 @@
+body, 
+
+html { 
+	width: 100%;
+	height: 100%;
+  background: url(eye.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3em;
+	font-weigth: 1000px;
+	color: #ffffff;
+	font-family: "Montserrat";
+}
+
+hr{
+	border-color: #008def;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer{
+	height:8rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #008def;
+
+}
+
+.btn-primary:hover{
+	background-color: #008ddf;
+
+}
+
+.btn-xl{
+	padding:1rem 2rem;
+
+}
+
+
+.btn-outline-success{
+	background-color:#008def;
+	border-color: #008def;
+	color: white;
+}
+
+.btn-outline-success:hover {
+	background-color: grey;
+	border-color: grey;
+}
